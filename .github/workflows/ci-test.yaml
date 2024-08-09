@@ -5,6 +5,7 @@ on:
 
 jobs:
   ruby-rspec:
+    name: ""
     permissions:
       contents: read
       pull-requests: write
