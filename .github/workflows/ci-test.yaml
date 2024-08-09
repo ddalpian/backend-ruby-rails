@@ -5,7 +5,7 @@ on:
 
 jobs:
   ruby-rspec:
-    name: ""
+    name: CI / Test
     permissions:
       contents: read
       pull-requests: write
