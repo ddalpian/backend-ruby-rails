@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  ruby/rspec:
+  ruby-rspec:
     name: CI / Test / Ruby RSpec
     permissions:
       contents: read
