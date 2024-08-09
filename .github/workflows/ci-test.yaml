@@ -11,6 +11,6 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    uses: .github/workflows/ci-test.yaml@main
+    uses: ddalpian/workflow-templates/.github/workflows/ci-test.yaml@main
     with:
       framework: ruby/rspec
